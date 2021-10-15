@@ -1,4 +1,6 @@
-/* Global Defaults and re-usable stylings */
+/** Global Defaults and Re-usable Stylings **/
+
+/* Global Defaults */
 
 * {
     box-sizing: border-box;
@@ -14,6 +16,8 @@ p {
     font-size: 16px;
 }
 
+/* Re-usable classes */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -24,7 +28,9 @@ p {
     margin-left: 25px;
 }
 
-/* Header Formatting */
+/** Header Formatting **/
+
+/* Company Name */
 
 header {
     padding: 20px;
@@ -41,6 +47,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* Nav Bar */
 
 header nav {
     padding-top: 15px;
@@ -64,7 +72,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Hero Formatting */
+/** Hero Formatting **/
 
 .hero {
     height: 800px;
@@ -75,7 +83,7 @@ header nav ul li a {
     background-position: center;
 }
 
-/* Content Formatting */
+/** Content Formatting **/
 
 .content {
     width: 75%;
@@ -101,7 +109,7 @@ header nav ul li a {
     font-size: 36px;
 }
 
-/* Benefits Formatting */
+/** Benefits Formatting **/
 
 .benefits {
     margin-right: 20px;
@@ -130,7 +138,7 @@ header nav ul li a {
     max-width: 150px;
 }
 
-/* Footer Formatting */
+/** Footer Formatting **/
 
 footer {
     padding: 30px;
